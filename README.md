@@ -1,17 +1,12 @@
 # Tema-TCD-Automata
 Mi-am facut un program ce-mi face o parte din tema de la o anumita materie.
 
-from pyautogui import *
-import pyautogui
-import time
-import keyboard
-import random
-import win32api, win32con
-
-time.sleep(1)
+Am folosit pyautogui pentru controlarea tastaturii, a mouse-ului si pentru localizarea unor butoane pe ecran.
 
 #functie pentru a deschide un nou fisier sheet
+
 def openSheet():
+
     os.startfile("https://docs.google.com/spreadsheets/u/0/")
         
     time.sleep(2)
@@ -35,6 +30,7 @@ def findAndClick(target):
     
 
 #functia ce rezolva problema
+
 def program():
     
         openSheet()
@@ -121,3 +117,5 @@ def program():
         findAndClick("click5.png")
 
 program()
+
+Nu este optim, dar am laboratoare maine si e tarziu :)) Probabil ar fi fost mult mai eficient sa folosesc pozitii predefinite pentru mouse in loc sa caut screenshoturi cu butoanele in screenshoturi la ecran, as fi putut sa fac un for in loc sa repet functia findAndClick de 11 mii de ori.. etc..
