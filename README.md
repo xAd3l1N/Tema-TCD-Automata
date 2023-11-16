@@ -3,7 +3,7 @@
 
 #Am folosit pyautogui pentru controlarea tastaturii, a mouse-ului si pentru localizarea unor butoane pe ecran.
 
-#functie pentru a deschide un nou fisier sheet
+### functie pentru a deschide un nou fisier sheet
 
 def openSheet():
 
@@ -18,7 +18,7 @@ def openSheet():
 
     #creare sheet nou
     pyautogui.click(x, y)
-
+### functie pt a da click pe imaginea cautata
 def findAndClick(target):
 
     print(target)
@@ -29,7 +29,7 @@ def findAndClick(target):
     pyautogui.click(x, y)
     
 
-#functia ce rezolva problema
+## functia ce rezolva problema
 
 def program():
     
@@ -43,7 +43,7 @@ def program():
         nrSectiuni = int(Lines[0])
         
         #print("nrSectiuni: ",nrSectiuni)
-        
+
         for _ in range(nrSectiuni):
             pyautogui.typewrite(str(_+1))
             time.sleep(0.01)
