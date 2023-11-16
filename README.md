@@ -1,7 +1,7 @@
 # Tema-TCD-Automata
-Mi-am facut un program ce-mi face o parte din tema de la o anumita materie.
+#Mi-am facut un program ce-mi face o parte din tema de la o anumita materie.
 
-Am folosit pyautogui pentru controlarea tastaturii, a mouse-ului si pentru localizarea unor butoane pe ecran.
+#Am folosit pyautogui pentru controlarea tastaturii, a mouse-ului si pentru localizarea unor butoane pe ecran.
 
 #functie pentru a deschide un nou fisier sheet
 
@@ -118,4 +118,4 @@ def program():
 
 program()
 
-Nu este optim, dar am laboratoare maine si e tarziu :)) Probabil ar fi fost mult mai eficient sa folosesc pozitii predefinite pentru mouse in loc sa caut screenshoturi cu butoanele in screenshoturi la ecran, as fi putut sa fac un for in loc sa repet functia findAndClick de 11 mii de ori.. etc..
+#Nu este optim, dar am laboratoare maine si e tarziu :)) Probabil ar fi fost mult mai eficient sa folosesc pozitii predefinite pentru mouse in loc sa caut screenshoturi cu butoanele in screenshoturi la ecran, as fi putut sa fac un for in loc sa repet functia #findAndClick de 11 mii de ori.. etc..
