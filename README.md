@@ -1,4 +1,4 @@
-# Tema-TCD-Automata
+# Tema-TCD-Automatizata
 #Mi-am facut un program ce-mi face o parte din tema de la o anumita materie.
 
 #Am folosit pyautogui pentru controlarea tastaturii, a mouse-ului si pentru localizarea unor butoane pe ecran.
